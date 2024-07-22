@@ -1,7 +1,5 @@
 # Designing a 128 Bytes Dual Port RAM Using Cadence Genus and Innovus
 
-I'm excited to share a recent project where I designed a 128 Bytes Dual Port RAM using Cadence's powerful EDA tools. This project provided a comprehensive understanding of both synthesis and physical design processes involved in memory design. 🚀
-
 ## Project Overview
 
 The objective was to design a 128 Bytes Dual Port RAM, a fundamental component in many digital systems. This design features dual ports, allowing simultaneous read and write operations, enhancing performance in various applications.
