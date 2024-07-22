@@ -1,0 +1,64 @@
+$date
+    Jul 19, 2024  15:28:18
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ps
+$end
+
+$scope module Ram_dualport_tb $end
+$var reg       8 !    data1 [7:0] $end
+$var reg       8 "    data2 [7:0] $end
+$var reg       6 #    adr1 [5:0] $end
+$var reg       6 $    adr2 [5:0] $end
+$var reg       1 %    we1  $end
+$var reg       1 &    we2  $end
+$var reg       1 '    clk  $end
+$var wire      8 (    q1 [7:0] $end
+$var wire      8 )    q2 [7:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b110011 !
+b1000100 "
+b1 #
+b10 $
+1%
+1&
+1'
+bx (
+bx )
+$end
+#5000
+0'
+#10000
+b1010101 !
+b11 #
+b1 $
+0&
+1'
+b110011 )
+#15000
+0'
+#20000
+b10 #
+b11 $
+0%
+1'
+b1000100 (
+b1010101 )
+#25000
+0'
+#30000
+b1 #
+b1110111 "
+b10 $
+1&
+1'
+b110011 (
+#35000
+0'
+#40000
